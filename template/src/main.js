@@ -9,6 +9,7 @@ import filters from './filters'
 
 globalAPI(Vue)
 
+// 修复 部分手机不支持vw vh单位 bug
 viewportUnitsBug.init({ hacks })
 
 // 注册filter
